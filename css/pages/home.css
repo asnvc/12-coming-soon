@@ -3,3 +3,12 @@
 @import '../base/layout.css';
 /* 3rd PARTY*/
 /* components*/
+
+/* CUSTOM STYLE BELLOW */
+
+section.container{
+    padding-bottom: 30px;
+}
+footer.container{
+    padding-top: 0;
+}
