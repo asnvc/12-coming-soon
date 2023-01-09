@@ -6,9 +6,39 @@
 
 /* CUSTOM STYLE BELLOW */
 
+
+/* hero */
 section.container{
     padding-bottom: 30px;
 }
+
+.hero > .short-row{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.main-tittle{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: -4px;
+}
+
+.main-description{
+    font-size: 18px;
+}
+
+.logo{
+    width: 100%;
+    height: 40px;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* main */
+
+/* footer */
 footer.container{
     padding-top: 0;
 }
