@@ -13,3 +13,17 @@ body{
 .bg-main{
     background-color: #03a9f3;
 }
+
+p{
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #333;
+}
+
+p > a{
+    color: #ea1e63;
+    text-decoration: none;
+}
+p > a:hover{
+    text-decoration: underline;
+}
