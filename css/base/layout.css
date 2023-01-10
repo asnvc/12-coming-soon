@@ -3,17 +3,32 @@
     padding-top: 60px;
 }
 
-.container > .row{
-width: 1000px;
-margin-left: calc(50% - 500px);
-}
-
 .container > .short-row{
     width: 600px;
     margin-left: calc(50% - 300px);
 }
 
+.container > .row{
+    display: inline-block;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+}
 
+.container > .columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > .columns > .column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.container > .columns > .right-column{
+    width: 40%;
+}
 @media (max-width: 1100px) {
     .container > .row{
         width: 800px;
@@ -25,6 +40,13 @@ margin-left: calc(50% - 500px);
     .container > .row{
         width: 600px;
         margin-left: calc(50% - 300px);
+    }
+    .container > .columns{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .container > .columns > .column{
+        width: 100%;
     }
 }
 
