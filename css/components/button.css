@@ -1,0 +1,17 @@
+.btn{
+    padding: 0.5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1em;
+    background-color: #ea1e63;
+    border: none;
+    border-radius: 0.2em;
+}
+
+.btn:hover{
+    box-shadow: 0 4px 8px #0002;
+}
