@@ -2,7 +2,10 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 /* 3rd PARTY*/
+@import '../components/font-awesome.min.css';
 /* components*/
+@import '../components/clock.css';
+@import '../components/mouse.css';
 
 /* CUSTOM STYLE BELLOW */
 
@@ -47,4 +50,31 @@
 /* footer */
 footer.container{
     padding-top: 0;
+}
+
+.row.socials{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+
+}
+
+.socials > a{
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+.socials > a:hover{
+    background-color: #fff;
+    color: #03a9f3;
 }
