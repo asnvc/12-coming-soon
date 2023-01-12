@@ -24,7 +24,23 @@
 }
 
 .progress-bar > .progress > .bar{
-    width: 90%;
-    height: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.progress-bar > .progress > .bar > .loading {
+    width: 100%;
+    height: 100%;
     background-color: #03a9f3;
+    animation-name: loading;
+    animation-duration: 3s;
+}
+
+@keyframes loading{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
 }
